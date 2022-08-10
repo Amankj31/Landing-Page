@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------Hreader section start------------*/
+
+#container{
+    width: 100%;
+    background-image: url(15259.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
+    #header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+    #header h3{
+    padding: 15px 30px;
+    font-size: 40px;
+    margin-right: 400px;
+    color: white;
+}
+    #header h3 span{
+    font-size: 50px;
+    color: brown;
+}
+    #header ul li{
+    display: inline-block;
+    margin: 20px;
+}
+    #header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+    #header ul li a:hover{
+    color: brown;
+}
+    #contant h2{
+    text-align: center;
+    padding-top: 20px;
+}
+    #main h3{color: white;
+        margin-top: 120px;
+        font-size: 40px;
+        padding-left: 30px;
+        font-weight: bolder;
+}
+    #main p{padding-left: 30px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+    #main .site{
+    text-decoration: none;
+    border: 2px solid black;
+    color: white;
+    padding: 8px 15px;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+    #main .site:hover{
+    color: brown;
+    background-color: white;
+}
+    #form{
+    color: white;
+    float: right;
+    margin-right: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: -230px;
+    background-color: black;
+    color: brown;
+    text-align: center;
+    }
+    #form h2{
+    font-size: 40px;
+}
+    #form .id{
+    background: transparent;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+    #form .pass{
+    background: transparent;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+    #form .me{margin-top: 20px;
+        margin-left: -70px;
+        margin-bottom: 20px;
+}
+    #form .forgot{
+        text-decoration: none;
+        margin-left: -70px;
+        color: brown;
+}
+    #form .btn{
+    text-decoration: none;
+    border: 2px solid brown;
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*---------Hreader section end------------*/
+
+/*--------course css start------------*/
+
+.course{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+    .course h1{
+    font-size: 40px;
+    font-family: 'Libre Bodoni', serif;
+    color: brown;
+    font-weight: bold;
+}
+    .course h1::after{
+    content: " ";
+    width: 40%;
+    height: 2px;
+    margin: auto;
+    background: black;
+    display: block;
+}
+    .course p{
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 40;
+    color: #222;
+    padding-top: 20px;
+}
+    .row{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+    .courses-col{
+    flex-basis: 31%;
+    background: #D1D5D8;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+    .courses-col h3{
+        color: brown;
+        font-weight: bold;
+        font-size: 27px;
+}
+    .courses-col p{
+    color: #666;
+    font-size: 20px;
+    color: #000;
+}
+    .courses-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+    
+/*--------course section End---------*/
+
+/* --------excel section start-------- */
+
+.excel{
+    width: 100%;
+    height: 60vh;
+    background: #60646D;
+    margin: 20px 0;
+}
+.excel .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.excel .task .cont{
+padding: 100px 20px 10px 200px;
+}
+.excel .task .cont h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.excel .task .cont p{
+    font-size: 30px;
+    padding-top: 10px;
+    color: #fff;
+}
+.task button{
+   margin: 90px 200px 0 20px;
+   padding: 18px 25px;
+   border-radius: 50px;
+   border: none;
+   outline: none;
+}
+.task button:hover{
+    background: #000;
+}
+.task button:hover i,
+.task button:hover span{
+    color: #fff;
+}
+.task button i{
+    margin-right: 15px;
+    color: brown;
+    font-size: 20px;
+}
+.task button span{
+    color: brown;
+    font-size: 20px ;
+    font-weight: bold;
+}
+/* --------excel section end-------- */
+
+/*---------footer section start------------*/
+
+#footer{width: 100%;
+	height: 400px;
+	background: #262626;
+}
+#footer .news{
+display: flex;
+justify-content: space-between;
+color: white;
+width: 80%;
+align-items: center;
+padding: 30px;
+margin-left: 10%;
+}
+.news > div
+{
+flex-basis: 50%;
+}
+#footer .news .news-1 h2{
+color: brown;
+font-size: 30px;
+margin-bottom: 10px;
+}
+#footer .news .news-1 p{
+	font-family: serif;
+	font-style: italic;
+}
+#footer .news .news-2{
+padding-left: 150px;
+}
+#footer .news .news-2 input{
+width: 60%;
+padding: 10px 0;
+border-radius: 8px 0 0 8px;
+ border: none;
+outline: none;
+}
+#footer .news .news-2 input::placeholder{
+font-size: 20px;
+padding-left: 20px;
+}
+#footer .news .news-2 button{
+width: 20%;
+padding: 10px 0;
+margin-left: px;
+border-radius: 0px 8px 8px 0;
+ border: none;
+outline: none;
+color: white;
+background: brown;
+}
+#footer .news .news-2 button:hover{
+background: brown;
+color: white;
+}
+#footer hr{
+height: px;
+background-color: brown;
+width: 60%;
+margin-left: 20%;
+}
+.f-cont{
+color: white;
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+margin-top: 40px;
+}
+#footer .f-cont >div{
+flex-basis: 20%;
+}
+#footer .f-cont a{
+display: inline-block;	
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+#footer .f-cont h2{
+color: brown;
+font-size: 30px;
+margin-bottom: 20px;
+}
+#footer .f-cont a:hover{
+color: #666;
+border-bottom: 1px black;
+}
+.f-cont .f-cont-1{
+margin-left: 50px;
+}
+#footer .f-cont p{
+line-height: 30px;
+}
+.f-cont .f-cont-1 .icons{
+margin-top: 20px;
+}
+.f-cont .f-cont-1 .icons i{
+padding: 10px;
+font-size: 30px;
+}
+.f-cont .f-cont-1 .icons i:hover{
+color: brown;
+}
+
+/*---------footer section end------------*/
